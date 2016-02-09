@@ -1,6 +1,6 @@
-    prefix=/usr/local
+prefix=/usr/local
+
+install:
+	install -m 0755 gh2dox $(prefix)/bin
     
-    install:
-    	install -m 0755 gh2dox $(prefix)/bin
-    
-    .PHONY: install
+.PHONY: install
