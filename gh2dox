@@ -1,3 +1,4 @@
 #!/bin/bash
 sed -i 's/```xml/~~~{.py}/g' $1
+sed -i 's/```bash/~~~{.py}/g' $1
 sed -i 's/```/~~~/g' $1
